@@ -1,0 +1,76 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Montserrat, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+}
+
+.container {
+  padding: 24px;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.wrapper {
+  flex: 1 1 0%;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ttl {
+  font-size: 2.5rem;
+  font-weight: 700;
+  padding-top: 64px;
+  padding-bottom: 24px;
+  line-height: 1.8;
+  color: #333333;
+}
+
+.sttl {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.8;
+  color: #333333;
+}
+
+.ssttl {
+  font-size: 1.15rem;
+  font-weight: 700;
+  line-height: 1.8;
+  color: #333333;
+}
+
+.txt {
+  font-size: 1.15rem;
+  font-weight: 500;
+  line-height: 1.8;
+  color: #333333;
+}
+
+.stxt {
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.8;
+  color: #333333;
+}

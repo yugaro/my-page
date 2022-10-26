@@ -1,0 +1,26 @@
+name: Yarn CI
+
+on:
+  pull_request:
+    branches:
+      - deploy/staging
+      - main
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: yarn install
+        run: yarn install
+
+      - name: Run eslint
+        run: yarn lint
+
+      - name: Run stylelint
+        run: yarn lint:css
+
+      - name: Run build
+        run: cp env/example.json env/local.json && yarn build
