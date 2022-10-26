@@ -21,6 +21,7 @@ export const slideImage = () => {
     { id: 7, link: '/images/top7.jpg' },
     { id: 8, link: '/images/top8.jpg' },
     { id: 9, link: '/images/top9.jpg' },
+    { id: 10, link: '/images/top10.jpg' },
   ]
   return data
 }
