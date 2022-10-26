@@ -3,7 +3,6 @@ name: Yarn CI
 on:
   pull_request:
     branches:
-      - deploy/staging
       - main
 
 jobs:
