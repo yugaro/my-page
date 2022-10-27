@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "@agney/react-loading": "^0.1.2",
-    "@aspida/axios": "^1.9.1",
+    "@aspida/axios": "^1.11.0",
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
     "@fortawesome/free-brands-svg-icons": "^6.1.1",
     "@fortawesome/free-regular-svg-icons": "^6.1.1",
