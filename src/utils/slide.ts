@@ -22,6 +22,23 @@ export const slideImage = () => {
     { id: 8, link: '/images/top8.jpg' },
     { id: 9, link: '/images/top9.jpg' },
     { id: 10, link: '/images/top10.jpg' },
+    { id: 10, link: '/images/top11.jpg' },
+  ]
+  return data
+}
+
+export const slideImagePhone = () => {
+  const data = [
+    { id: 1, link: '/images/top12.jpg' },
+    { id: 2, link: '/images/top13.jpg' },
+    { id: 3, link: '/images/top14.jpg' },
+    { id: 4, link: '/images/top15.jpg' },
+    { id: 5, link: '/images/top16.jpg' },
+    { id: 6, link: '/images/top17.jpg' },
+    { id: 7, link: '/images/top18.jpg' },
+    { id: 8, link: '/images/top19.jpg' },
+    { id: 9, link: '/images/top20.jpg' },
+    { id: 9, link: '/images/top21.jpg' },
   ]
   return data
 }
