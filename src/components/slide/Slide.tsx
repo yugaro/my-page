@@ -49,7 +49,6 @@ export const Slide = () => {
           Hello!
           <br />
           I&apos;m Yuga!
-          {windowWidth}
         </div>
         <div className={`${style['slide__txt']} ${style['slide__txt__tt2']}`}>
           Osaka University stutent
