@@ -51,7 +51,7 @@ export const Slide = () => {
           I&apos;m Yuga!
         </div>
         <div className={`${style['slide__txt']} ${style['slide__txt__tt2']}`}>
-          Osaka University stutent
+          {/* Osaka University stutent */}
         </div>
       </div>
       <div className={style['slide__scroll__container']}>
