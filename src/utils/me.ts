@@ -116,7 +116,7 @@ export const jobList = () => {
     },
     {
       name: 'Recruit Co., Ltd.',
-      year: 'Feb. 2022 - Mar. 2022',
+      year: 'Jan. 2022 - Mar. 2022',
       place: 'Tokyo, Japan',
       status: 'UX Director',
       contents: [
