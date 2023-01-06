@@ -91,29 +91,29 @@ export const educationList = () => {
 
 export const jobList = () => {
   const data = [
-    {
-      name: 'e-dash Co., Ltd.',
-      year: 'May. 2023 - ',
-      place: 'Tokyo, Japan',
-      status: '',
-      contents: [
-        // {
-        //   content:
-        //     'Designed iOS/Anderoid application for Jalan at Recruit Co., Ltd., a social platform that specializes in travels such as lodging, leisure activity, and sightseeing guid.',
-        // },
-        // {
-        //   content:
-        //     'Proposed and developed new functions for detail screens of leisure activity, and measured the effectiveness based on AB test.',
-        // },
-        // {
-        //   content:
-        //     'Developed new original proposals to prevent those who view Jalan from leaving the site such as elimination of information noise, satisfaction of important information, and new function for pricing of coupon, where the price is dynamically changed corresponding to UX.',
-        // },
-      ],
-      specs: [
-        // { spec: 'Power BI' },
-      ],
-    },
+    // {
+    //   name: 'e-dash Co., Ltd.',
+    //   year: 'May. 2023 - ',
+    //   place: 'Tokyo, Japan',
+    //   status: '',
+    //   contents: [
+    //     // {
+    //     //   content:
+    //     //     'Designed iOS/Anderoid application for Jalan at Recruit Co., Ltd., a social platform that specializes in travels such as lodging, leisure activity, and sightseeing guid.',
+    //     // },
+    //     // {
+    //     //   content:
+    //     //     'Proposed and developed new functions for detail screens of leisure activity, and measured the effectiveness based on AB test.',
+    //     // },
+    //     // {
+    //     //   content:
+    //     //     'Developed new original proposals to prevent those who view Jalan from leaving the site such as elimination of information noise, satisfaction of important information, and new function for pricing of coupon, where the price is dynamically changed corresponding to UX.',
+    //     // },
+    //   ],
+    //   specs: [
+    //     // { spec: 'Power BI' },
+    //   ],
+    // },
     {
       name: 'Recruit Co., Ltd.',
       year: 'Jan. 2022 - Mar. 2022',
@@ -335,9 +335,14 @@ export const conferenceList = () => {
 
 export const qualificationList = () => {
   const data = [
-    { id: 1, title: 'TOEIC, Nov. 2022, SCORE: 905' },
-    { id: 2, title: 'Advanced Diver (PADI), Jul. 2022' },
-    { id: 3, title: "First-Class Boat's Operator, Jul. 2022" },
+    { id: 1, title: 'TOEIC, SCORE: 905, Nov. 2022' },
+    {
+      id: 2,
+      title:
+        'The Official Business Skill Test in Bookkeeping, 3rd grade, Jan. 2023',
+    },
+    { id: 3, title: 'Advanced Diver (PADI), Jul. 2022' },
+    { id: 4, title: "First-Class Boat's Operator, Jul. 2022" },
   ]
   return data
 }
